@@ -1,0 +1,105 @@
+/*picture settings*/
+body {
+    text-align: center;
+    background-image: url(./carspicture/start.jpg);
+    margin: 0;
+    padding: 0;
+    background-size: cover; 
+    background-position: center;
+    background-repeat: no-repeat;
+    
+}
+/* new fonts*/
+@font-face {
+    font-family: carsfont;
+    src: url(./Pacifico-Regular.ttf);
+}
+@font-face {
+    font-family: caraa;
+    src: url(./Roboto-Black.ttf);
+}
+/* texts settings*/
+.Text {
+    display: grid;
+    grid-template-columns: 100%;
+    font-family: carsfont;
+    text-align: center;
+    color: rgb(247, 244, 244);
+    text-shadow: 3px 3px 10px rgba(0, 0, 0, 0.8);
+}
+.Texts {
+    display: grid;
+    grid-template-columns: 100%;
+    font-family: caraa;
+    text-align: center;
+    color: rgb(243, 234, 234);
+   
+}
+
+h1 {
+    font-size: 5rem;
+    color: #DBEDF3;
+    font-family: "carsfonts", cursive;
+ 
+}
+/* making the buttons pictures*/
+.ferrari {
+    background-image: url("./carspicture/ferrari.jfif");
+    background-size: cover;
+}
+
+.formula1 {
+    background-image: url("./carspicture/formula.jfif");
+    background-size: cover;
+}
+
+.car {
+    background-image: url("./carspicture/car.jfif");
+    background-size: cover;
+}
+
+.motorbike {
+    background-image: url("./carspicture/motorbike.jfif");
+    background-size: cover;
+}
+
+.truck {
+    background-image: url("./carspicture/truck.jfif");
+    background-size: cover;
+}
+
+.firetruck {
+    background-image: url("./carspicture/firetruck.jfif");
+    background-size: cover;
+}
+
+.speedy {
+    background-image: url("./carspicture/speedy%20mcqueen.jfif");
+    background-size: cover;
+}
+
+.set {
+    margin: 10% auto;
+}
+/* making the buttons style*/
+.carss {
+    outline: none;
+    border: 10px solid #3e527d;
+    font-size: 4rem;
+    font-family: 'arial', cursive;
+    font-weight: 900;
+    color: #949fa0;
+    text-shadow: 3px 0 #494f51;
+    border-radius: 15px;
+    width: 150px;
+    height: 150px;
+    text-align: center;
+    margin: 10px;
+}
+.carss:hover {
+    color: #fff8f4; 
+    /* Change color on hover */
+}
+
+
+
